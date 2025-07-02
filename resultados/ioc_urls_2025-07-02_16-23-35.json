@@ -1,0 +1,18 @@
+{
+  "response": {
+    "fecha_desde": "2025-07-02T00:00:00",
+    "fecha_hasta": "2025-07-02T23:59:59",
+    "urls": [
+      {
+        "valor": "https://inehurstdentistrnc-statement4wswd-4c4c-22f9-7201-n36d465f620.us-sea-1.linodeobjects.com/ttpqxx3lvu712p17z2vvaovc19zt7v904eto-invoicesmedship-statement9ws002d-4c4c-22f9-8207-n36d465f6201.html#b",
+        "tipo": "url",
+        "fecha_creacion": "2025-07-02T16:15:16"
+      },
+      {
+        "valor": "https://www.edrawmax.com/online/share.html?code={Token}",
+        "tipo": "url",
+        "fecha_creacion": "2025-07-02T16:15:16"
+      }
+    ]
+  }
+}
