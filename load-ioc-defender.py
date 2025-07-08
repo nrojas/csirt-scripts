@@ -2,7 +2,7 @@ import os
 import json
 import requests
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 import argparse
 import re
@@ -39,7 +39,7 @@ def obtener_token_defender():
 
 # ========================== FUNCIONES =============================
 def calcular_expiracion(dias_validez: int) -> str:
-    expiracion = datetime.utcnow() + timedelta(days=dias_validez)
+    expiracion = datetime.now(timezone.utc) + timedelta(days=dias_validez)
     return expiracion.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 def extraer_indicadores_generico(ruta: Path):
